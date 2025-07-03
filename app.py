@@ -5,10 +5,7 @@ app = Flask(__name__)
 
 # list rss feeds to read from
 rss_feeds = {
-    "Krebs on security":"https://krebsonsecurity.com/feeds",
-    "The hacker news":"https://feeds.feedburner.com/TheHackerNews",
     "BleepingComputer":"https://www.bleepingcomputer.com/feed/",
-    "Dark Reading":"https://www.darkreading.com/rss.cxml",
     "ThreatPost":"https://threatpost.com/feed/",
     "TechCrunch (All)":"https://techcrunch.com/feed/",
     "How-to-Geek":"https://howtogeek.com/feed/",
