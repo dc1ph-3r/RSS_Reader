@@ -6,7 +6,6 @@ app = Flask(__name__)
 # list rss feeds to read from
 rss_feeds = {
     "BleepingComputer":"https://www.bleepingcomputer.com/feed/",
-    "ThreatPost":"https://threatpost.com/feed/",
     "TechCrunch (All)":"https://techcrunch.com/feed/",
     "How-to-Geek":"https://howtogeek.com/feed/",
 }
@@ -15,7 +14,7 @@ def get_feeds():
     all_news = {}
     for source, url in rss_feeds.items():
         parsed = feedparser.parse(url)
-        all_news[source] = parsed.entries[:5] # top5 entries
+        all_news[source] = parsed.entries[:10] # top 10 entries
     return all_news
 
 @app.route("/")
