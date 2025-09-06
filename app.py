@@ -8,6 +8,9 @@ rss_feeds = {
     "BleepingComputer":"https://www.bleepingcomputer.com/feed/",
     "TechCrunch (All)":"https://techcrunch.com/feed/",
     "How-to-Geek":"https://howtogeek.com/feed/",
+    "The Register":"https://www.theregister.com/",
+    "Dark Reading":"https://www.darkreading.com/",
+    "Databreaches.net":"https://databreaches.net/",
 }
 
 def get_feeds():
