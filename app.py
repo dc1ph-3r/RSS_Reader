@@ -17,7 +17,7 @@ def get_feeds():
     all_news = {}
     for source, url in rss_feeds.items():
         parsed = feedparser.parse(url)
-        all_news[source] = parsed.entries[:10] # top 10 entries
+        all_news[source] = parsed.entries[:5] # top 5 entries
     return all_news
 
 @app.route("/")
