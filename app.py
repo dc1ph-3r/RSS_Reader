@@ -8,9 +8,6 @@ rss_feeds = {
     "BleepingComputer":"https://www.bleepingcomputer.com/feed/",
     "TechCrunch (All)":"https://techcrunch.com/feed/",
     "How-to-Geek":"https://howtogeek.com/feed/",
-    "The Register":"https://www.theregister.com/",
-    "Dark Reading":"https://www.darkreading.com/",
-    "Databreaches.net":"https://databreaches.net/",
     "This Week In 4n6":"Https://thisweekin4n6.com/feed/atom",
     "Reddit RSS":"Https://www.reddit.com/r/cyber security/rss",
 }
