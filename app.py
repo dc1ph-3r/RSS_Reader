@@ -10,7 +10,9 @@ rss_feeds = {
     "How-to-Geek":"https://howtogeek.com/feed/",
     "This Week In 4n6":"Https://thisweekin4n6.com/feed/atom",
     "Reddit RSS":"Https://www.reddit.com/r/cyber security/rss",
-}
+    "CVEfeed.io":"https://cvefeed.io/rssfeed/latest.xml"
+} 
+
 
 def get_feeds():
     all_news = {}
