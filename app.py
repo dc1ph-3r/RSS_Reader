@@ -8,8 +8,8 @@ rss_feeds = {
     "BleepingComputer":"https://www.bleepingcomputer.com/feed/",
     "TechCrunch (All)":"https://techcrunch.com/feed/",
     "How-to-Geek":"https://howtogeek.com/feed/",
-    "This Week In 4n6":"Https://thisweekin4n6.com/feed/atom",
-    "Reddit RSS":"Https://www.reddit.com/r/cyber security/rss",
+    "This Week In 4n6":"https://thisweekin4n6.com/feed/atom",
+    "Reddit RSS":"https://www.reddit.com/r/cyber security/rss",
     "CVEfeed.io":"https://cvefeed.io/rssfeed/latest.xml"
 } 
 
@@ -19,6 +19,8 @@ def get_feeds():
     for source, url in rss_feeds.items():
         parsed = feedparser.parse(url)
         all_news[source] = parsed.entries[:5] # top 5 entries
+    else:
+        all_news[source] = []
     return all_news
 
 @app.route("/")
