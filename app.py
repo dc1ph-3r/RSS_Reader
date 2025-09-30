@@ -1,4 +1,5 @@
 from flask import Flask, render_template # type: ignore
+from flask import send_from_directory # type: ignore
 import feedparser # type: ignore
 
 app = Flask(__name__)
@@ -23,6 +24,14 @@ def get_feeds():
         else:
             all_news[source] = []
     return all_news
+
+@app.route("/favicon.ico")
+def favicon():
+    return send_from_directory(
+        os.path.join(app.root_path, 'static'),
+        'favicon.ico',
+        mimetype='image/vnd.microsoft.icon'
+    )
 
 @app.route("/")
 def home():
