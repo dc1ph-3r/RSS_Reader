@@ -1,0 +1,40 @@
+2026-01-02 15:53:18.788 [info] Client: Pylance client (2025.10.4) started with python extension (2025.20.1)
+2026-01-02 15:53:20.431 [info] (15241): Server root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2026-01-02 15:53:20.459 [info] (15241): Pylance language server 2025.10.4 (pyright version 1.1.407, commit 906e40aa) starting
+2026-01-02 15:53:20.487 [info] (15241): Starting service instance "RSS_Reader" for workspace "/home/dcypher/RSS_Reader"
+2026-01-02 15:53:22.539 [info] (15241): Loading background bundle file:///root/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js into file:///home/dcypher/RSS_Reader...
+2026-01-02 15:53:22.819 [info] (15241): FG(RSS_Reader): Setting environmentName for service "RSS_Reader": "3.11.2 (global)"
+2026-01-02 15:53:22.820 [info] (15241): FG(RSS_Reader): Setting pythonPath for service "RSS_Reader": "/bin/python3"
+2026-01-02 15:53:22.820 [info] (15241): FG(RSS_Reader): No include entries specified; assuming /home/dcypher/RSS_Reader
+2026-01-02 15:53:22.820 [info] (15241): FG(RSS_Reader): Auto-excluding **/node_modules
+2026-01-02 15:53:22.820 [info] (15241): FG(RSS_Reader): Auto-excluding **/__pycache__
+2026-01-02 15:53:22.820 [info] (15241): FG(RSS_Reader): Auto-excluding **/.*
+2026-01-02 15:53:22.894 [info] (15241): FG(RSS_Reader): Assuming Python version 3.11.2.final.0
+2026-01-02 15:53:23.074 [info] (15241): FG(RSS_Reader): Found 1 source file
+2026-01-02 15:53:23.081 [info] (15241): Settings have not changed. Skipping update.
+2026-01-02 15:53:23.091 [info] (15241): Starting Mcp server id:4047 ...
+2026-01-02 15:53:24.361 [info] (15241): PQ(RSS_Reader): Priority queue background worker(2) root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2026-01-02 15:53:24.362 [info] (15241): PQ(RSS_Reader): Priority queue background worker(2) started
+2026-01-02 15:53:25.119 [info] (15241): BG(RSS_Reader): Loaded external background bundle file:///root/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js. 
+2026-01-02 15:54:00.381 [info] (15241): IDX(RSS_Reader): Indexer background runner(3) root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist (index)
+2026-01-02 15:54:00.394 [info] (15241): IDX(RSS_Reader): Indexing(3) started
+2026-01-02 15:54:01.718 [info] (15241): BG(RSS_Reader): Long operation: SemanticTokens range 0:0 - 60:0 at file:///home/dcypher/RSS_Reader/app.py (3074ms)
+2026-01-02 15:54:03.816 [info] (15241): IDX(RSS_Reader): scanned(3) 126 files over 1 exec env
+2026-01-02 15:54:07.331 [info] (15241): IDX(RSS_Reader): Long operation: index execution environment file:///home/dcypher/RSS_Reader (3276ms)
+2026-01-02 15:54:07.406 [info] (15241): IDX(RSS_Reader): Long operation: index packages file:///home/dcypher/RSS_Reader (3383ms)
+2026-01-02 15:54:07.407 [info] (15241): IDX(RSS_Reader): indexed(3) 126 files over 1 exec env
+2026-01-02 15:54:07.541 [info] (15241): IDX(RSS_Reader): Indexing finished(3).
+2026-01-02 16:08:18.757 [info] (15241): Starting service instance "<default>" for workspace ""
+2026-01-02 16:08:18.785 [info] (15241): Loading background bundle file:///root/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js into ...
+2026-01-02 16:08:18.962 [info] (15241): FG(<default>): Setting environmentName for service "<default>": "3.11.2 (global)"
+2026-01-02 16:08:18.962 [info] (15241): FG(<default>): Setting pythonPath for service "<default>": "/bin/python3"
+2026-01-02 16:08:18.963 [info] (15241): FG(<default>): No include entries specified; assuming /<default workspace root>
+2026-01-02 16:08:18.966 [info] (15241): FG(<default>): Auto-excluding **/node_modules
+2026-01-02 16:08:18.967 [info] (15241): FG(<default>): Auto-excluding **/__pycache__
+2026-01-02 16:08:18.967 [info] (15241): FG(<default>): Auto-excluding **/.*
+2026-01-02 16:08:19.369 [info] (15241): FG(<default>): Assuming Python version 3.11.2.final.0
+2026-01-02 16:08:19.643 [error] (15241): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2026-01-02 16:08:19.643 [info] (15241): FG(<default>): No source files found.
+2026-01-02 16:08:21.894 [info] (15241): PQ(<default>): Priority queue background worker(5) root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2026-01-02 16:08:21.898 [info] (15241): PQ(<default>): Priority queue background worker(5) started
+2026-01-02 16:08:22.567 [info] (15241): BG(<default>): Loaded external background bundle file:///root/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js. 

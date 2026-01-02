@@ -1,0 +1,43 @@
+2026-01-02 15:51:38.726 [info] Extension host with pid 14849 started
+2026-01-02 15:51:38.799 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-01-02 15:51:38.903 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-01-02 15:51:39.208 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-01-02 15:51:39.236 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-01-02 15:51:39.375 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-01-02 15:51:39.905 [info] Eager extensions activated
+2026-01-02 15:51:39.914 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-01-02 15:51:39.920 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-01-02 15:52:10.063 [info] Extension host terminating: renderer closed the MessagePort
+2026-01-02 15:52:10.095 [info] Extension host with pid 14849 exiting with code 0
+2026-01-02 15:52:15.913 [info] Extension host with pid 14961 started
+2026-01-02 15:52:15.914 [info] Skipping acquiring lock for /home/dcypher/RSS_Reader/templates/~/.vscode-root/User/workspaceStorage/582b43900a60a0af960554221b6566ea.
+2026-01-02 15:52:15.960 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-01-02 15:52:16.041 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-01-02 15:52:16.320 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2026-01-02 15:52:16.555 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-01-02 15:52:16.822 [info] Eager extensions activated
+2026-01-02 15:52:16.829 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-01-02 15:52:16.837 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-01-02 15:52:18.013 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2026-01-02 15:52:30.622 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2026-01-02 15:53:13.467 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2026-01-02 15:53:13.618 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2026-01-02 15:53:14.098 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2026-01-02 15:53:16.290 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2026-01-02 15:53:18.887 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-01-02 15:53:23.068 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2026-01-02 15:53:23.088 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2026-01-02 16:14:12.282 [info] Extension host terminating: renderer closed the MessagePort
+2026-01-02 16:14:12.509 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.G [as deactivate] (/root/.vscode/extensions/ms-python.vscode-python-envs-1.14.0-linux-x64/dist/extension.js:2:684166)
+	at HX.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:11850)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:10000
+	at Array.map (<anonymous>)
+	at HX.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:9988)
+	at HX.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:10231)
+	at yN.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:914)
+	at Us (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:11129)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:7604)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2026-01-02 16:14:12.515 [info] Extension host with pid 14961 exiting with code 0

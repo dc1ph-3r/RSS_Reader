@@ -1,0 +1,29 @@
+2026-01-02 15:53:15.775 [warning] Dir "/home/dcypher/RSS_Reader/.pixi/envs" is not watchable (directory does not exist)
+2026-01-02 15:53:15.968 [info] Starting Environment refresh
+2026-01-02 15:53:15.972 [info] Searching for interpreters in posix paths locator
+2026-01-02 15:53:15.988 [info] Searching for pyenv environments
+2026-01-02 15:53:15.988 [info] Searching for conda environments
+2026-01-02 15:53:15.988 [info] Searching for global virtual environments
+2026-01-02 15:53:15.989 [info] Searching for custom virtual environments
+2026-01-02 15:53:16.040 [info] pyenv is not installed
+2026-01-02 15:53:16.040 [info] Finished searching for pyenv environments: 67 milliseconds
+2026-01-02 15:53:16.041 [info] Finished searching for custom virtual envs: 65 milliseconds
+2026-01-02 15:53:16.089 [info] > conda info --json
+2026-01-02 15:53:16.122 [info] > hatch env show --json
+2026-01-02 15:53:16.123 [info] cwd: .
+2026-01-02 15:53:16.283 [info] > pyenv which python
+2026-01-02 15:53:16.283 [info] cwd: .
+2026-01-02 15:53:16.284 [info] Finished searching for global virtual envs: 309 milliseconds
+2026-01-02 15:53:16.668 [info] Found: /bin/python3 --> /bin/python3.11
+2026-01-02 15:53:16.673 [info] Found: /bin/python3.11 --> /bin/python3.11
+2026-01-02 15:53:16.925 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2026-01-02 15:53:16.935 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2026-01-02 15:53:17.399 [info] Finished searching for interpreters in posix paths locator: 1404 milliseconds
+2026-01-02 15:53:17.399 [info] > /bin/python3 -I ~/.vscode/extensions/ms-python.python-2025.20.1-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.20.1-linux-x64/python_files/interpreterInfo.py
+2026-01-02 15:53:17.490 [info] > /usr/bin/python3 -I ~/.vscode/extensions/ms-python.python-2025.20.1-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.20.1-linux-x64/python_files/interpreterInfo.py
+2026-01-02 15:53:17.490 [info] Environments refresh paths discovered (event): 1537 milliseconds
+2026-01-02 15:53:17.491 [info] Environments refresh paths discovered: 1538 milliseconds
+2026-01-02 15:53:17.938 [info] Environments refresh finished (event): 1985 milliseconds
+2026-01-02 15:53:18.005 [info] Environment refresh took 2052 milliseconds
+2026-01-02 15:53:18.144 [info] Python interpreter path: /bin/python3
+2026-01-02 15:53:22.598 [info] Starting Pylance language server.
