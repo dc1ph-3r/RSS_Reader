@@ -6,7 +6,7 @@
         <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
         <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
 
-        <title>Cybersecurity News</title>
+        <title>Cybersecurity & Technology News</title>
         <style>
             :root {
                 --bg: #f7f7f7;
@@ -127,7 +127,7 @@
 
         <input type="text" id="search" placeholder="Type to filter articles ..." />
 
-        {% for source, articles in news.items() %}
+        {% for source, articles in feeds.items() %}
             <div class="source">
                 <h2>{{ source }}</h2>
                 {% for entry in articles %}

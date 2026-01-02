@@ -47,11 +47,11 @@ def home():
 
 @app.route("/dashboard")
 def dashboard():
-    news = {}
+    feeds = {}
     for name, url in feed_url.items(): 
         feed = feedparser.parse(url) 
-        news[name] = feed.entries
-    return render_template("dashboard.html", news=news)
+        feeds[name] = feed.entries
+    return render_template("dashboard.html", feeds=feeds)
 
 @app.route("/api")
 def api_dashboard():
