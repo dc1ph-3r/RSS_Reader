@@ -18,7 +18,7 @@ feed_url = {
 
 def fetch_all_articles(feed_url):
     all_articles = []
-    for url in feed_url.items():
+    for name, url in feed_url.items():
         feed = feedparser.parse(url)
         for entry in feed.entries:
             published = None
@@ -47,12 +47,16 @@ def home():
 
 @app.route("/dashboard")
 def dashboard():
-    return render_template("dashboard.html")
+    news = {}
+    for name, url in feed_url.items(): 
+        feed = feedparser.parse(url) 
+        news[name] = feed.entries
+    return render_template("dashboard.html", news=news)
 
-@app.route("/api/dashboard")
+@app.route("/api")
 def api_dashboard():
     # dashboard logic here
-    articles = fetch_all_articles()
+    articles = fetch_all_articles(feed_url)
     articles.sort(key=lambda x: x["published"] or "", reverse=True)
     return jsonify(articles)
 
