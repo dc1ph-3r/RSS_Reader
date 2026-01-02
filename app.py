@@ -60,5 +60,9 @@ def api_dashboard():
     articles.sort(key=lambda x: x["published"] or "", reverse=True)
     return jsonify(articles)
 
+@app.route("/settings")
+def settings():
+    return render_template("settings.html")
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
